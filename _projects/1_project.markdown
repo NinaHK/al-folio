@@ -1,77 +1,37 @@
 ---
 layout: page
 title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+description: Project
+img: /assets/img/projectone.jpg
 importance: 1
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+From roads to education to social services, public goods provided by states can promote welfare and combat inequality. By the same token, when under provided, inefficient, or poorly targeted, these same goods and services can reduce welfare and entrench inequalities. Dominant approaches to the study of these pathologies have focused on politicians’ incentives to provide these goods. I instead focus on the state institutions themselves to understand how and why poor outcomes emerge.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+My dissertation studies the distributive politics of bureaucracy in precisely these settings focusing on: (1) bureaucratic discretion in the production and distribution of public goods; and (2) the targeting of public sector jobs as private goods.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<h4> Bureaucratic Discretion and Public Service Provision </h4>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Bureaucrat-citizen interaction represent the most regular form of interaction between citizens and their governments. Street-level bureaucrats oversee service delivery in these encounters, often with substantial discretion over the distribution of these goods and services. To what extent does bureaucratic discretion shape inequality in access to public goods and services? How do these considerations shape politicians’ decisions to allocate funds to public goods?
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+<ul>
+<li> <b>"Bureaucrats Driving Inequality in Access: Experimental Evidence from Colombia"</b>
+<ul>
+<li>A stylized formal model of bureaucratic bias and political oversight tested by a national-scale phone audit experiment of Colombia's two largest social programs.</li>
+</ul> </li>
+<li> <b>"The Distributive Consequences of Bureaucratic Discretion" </b>
+<ul>
+<li> Develops methods for examining the distributive consequences of bias and absenteeism in the Colombian audit experiment.</li>
+</ul></li>
+<li> <b>"Bureaucrats and Electoral Accountability" </b></li>
+<ul>
+<li> A model of retrospective electoral accountability with a bureaucrat as "the producers of public goods" examines how characteristics of the bureaucracy impact a politician's budget allocation and a voter's ability to hold elected politicians to account.</li>
+</ul>
+</ul>
+<h4> Public Jobs as Private Goods </h4>
 
+The second portion of the dissertation examines the politics of bureaucratic selection within the frame of distributive politics. It starts from the observation that public sector jobs represent the largest form of targeted distribution in most democracies. Nevertheless, we know least about who wins public sector jobs in precisely the places where they are most lucrative: low- and middle-income countries. In these settings, public sector wage premia – the difference between average public and private sector wages – are greatest. I argue that at the national level, politicians employ three main policy instruments to shape the composition of the bureaucracy: merit requirements/civil service reforms, affirmative action policies or quotas, and public sector wages.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<li> <b>"A Model of Bureaucratic Hiring in Plural Societies" </b></li>
+<li> <b>"The Distributive Foundations of Comparative Public Sector Personnel Policy"</b></li>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
